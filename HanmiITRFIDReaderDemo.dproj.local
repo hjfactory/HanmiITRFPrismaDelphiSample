@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.431,=C:\Users\hjfac_000\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.454,=C:\Users\hjfac_000\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.044,=C:\Users\hjfac_000\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.276,=D:\ProjectExt\midas\HanmiIT_RFIDReader\libs\FMX.SelectBluetoothDeviceDialog.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.017,D:\ProjectExt\midas\HanmiIT_RFIDReader\libs\FMX.SelectBluetoothDeviceDialog.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.908,=C:\Users\hjfac_000\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.609,=C:\Users\hjfac_000\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.851,=C:\Users\hjfac_000\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.763,=C:\Users\hjfac_000\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.097,D:\ProjectExt\midas\HanmiIT_RFIDReader\MainForm.pas=C:\Users\hjfac_000\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.537,=C:\Users\hjfac_000\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.349,=C:\Users\hjfac_000\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.179,=C:\Users\hjfac_000\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.788,=D:\ProjectExt\midas\HanmiIT_RFIDReader\libs\FMX.UI.OverflowMenu.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.137,=D:\ProjectExt\midas\HanmiIT_RFIDReader\libs\FMX.UI.WaitDialog.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.551,D:\ProjectExt\midas\HanmiIT_RFIDReader\FMX.HanmiIT.RFIDReader.pas=D:\ProjectExt\midas\HanmiIT_RFIDReader\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.161,=D:\ProjectExt\midas\HanmiIT_RFIDReader\libs\FMX.HardwareBackButtonController.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.774,D:\ProjectExt\midas\HanmiIT_RFIDReader\HanmiITRFIDReaderDemo.dproj=C:\Users\hjfac_000\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.691,=D:\ProjectExt\midas\HanmiIT_RFIDReader\AndroidManifest.template.xml</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.924,=D:\ProjectExt\midas\HanmiIT_RFIDReader\libs\FMX.UI.SelectBluetoothDeviceDialog.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.168,D:\ProjectExt\midas\HanmiIT_RFIDReader\libs\FMX.WaitDialog.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.909,=D:\ProjectExt\midas\SDK\rfid.reader.api.jar</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.097,D:\ProjectExt\midas\HanmiIT_RFIDReader\MainForm.fmx=C:\Users\hjfac_000\Documents\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.877,=D:\ProjectExt\midas\HanmiIT_RFIDReader\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.208,=D:\ProjectExt\midas\HanmiIT_RFIDReader\Androidapi.JNI.rfidreaderapi.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.285,=D:\ProjectExt\midas\HanmiIT_RFIDReader\libs\FMX.WaitDialog.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<P192.168.0.24 iOSSimulator="iPhone5"/>
+		<P192.168.1.15 iOSSimulator="iPhone5"/>
+		<P192.168.0.XX iOSSimulator="iPhone5"/>
+		<NoProfile Android="" iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

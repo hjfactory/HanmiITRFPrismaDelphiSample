@@ -1,0 +1,153 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 392
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  DesignerMasterStyle = 3
+  object ToolBar1: TToolBar
+    Size.Width = 392.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Label2: TLabel
+      Align = Contents
+      Size.Width = 392.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+      Text = 'HanmiIT RFID Reader Demo'
+      TabOrder = 1
+    end
+    object btnMenu: TButton
+      Align = Right
+      Position.X = 344.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'detailstoolbutton'
+      TabOrder = 0
+      Text = 'btnMenu'
+      OnClick = btnMenuClick
+    end
+  end
+  object lytMenu: TLayout
+    Align = Top
+    Position.Y = 48.000000000000000000
+    Size.Width = 392.000000000000000000
+    Size.Height = 105.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object swcFiltered: TSwitch
+      IsChecked = False
+      Position.X = 24.000000000000000000
+      Position.Y = 16.000000000000000000
+      TabOrder = 0
+      OnSwitch = swcFilteredSwitch
+    end
+    object btnRFIDInventory: TButton
+      Position.X = 24.000000000000000000
+      Position.Y = 48.000000000000000000
+      Size.Width = 169.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Inventory'
+      OnClick = btnRFIDInventoryClick
+    end
+    object Label1: TLabel
+      Position.X = 80.000000000000000000
+      Position.Y = 16.000000000000000000
+      Text = 'Filtered'
+      TabOrder = 9
+    end
+    object cbxPowerGain: TComboBox
+      Hint = 'Power Gain'
+      Position.X = 168.000000000000000000
+      Position.Y = 9.000000000000000000
+      Size.Width = 153.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 10
+      OnChange = cbxPowerGainChange
+    end
+    object btnRFIDClear: TButton
+      Position.X = 200.000000000000000000
+      Position.Y = 48.000000000000000000
+      Size.Width = 121.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 11
+      Text = 'Clear'
+      OnClick = btnRFIDClearClick
+    end
+  end
+  object lytList: TLayout
+    Align = Client
+    Size.Width = 392.000000000000000000
+    Size.Height = 277.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object ListView1: TListView
+      ItemAppearanceClassName = 'TListItemRightDetailAppearance'
+      ItemEditAppearanceClassName = 'TListItemRightDetailDeleteAppearance'
+      HeaderAppearanceClassName = 'TListHeaderObjects'
+      FooterAppearanceClassName = 'TListHeaderObjects'
+      Align = Client
+      Size.Width = 392.000000000000000000
+      Size.Height = 277.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      ItemAppearanceObjects.ItemObjects.Text.Font.Size = 11.000000000000000000
+      ItemAppearanceObjects.ItemObjects.Text.Width = 260.000000000000000000
+      ItemAppearanceObjects.ItemObjects.Detail.Width = 50.000000000000000000
+      object tmrFillList: TTimer
+        Interval = 250
+        OnTimer = tmrFillListTimer
+        Left = 216
+        Top = 296
+      end
+    end
+  end
+  object Layout1: TLayout
+    Align = Bottom
+    Position.Y = 430.000000000000000000
+    Size.Width = 392.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    object btnBarcode: TButton
+      Align = Client
+      Size.Width = 392.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Barcode Scan'
+      OnClick = btnBarcodeClick
+    end
+  end
+  object FDMemTable1: TFDMemTable
+    FetchOptions.AssignedValues = [evMode]
+    FetchOptions.Mode = fmAll
+    ResourceOptions.AssignedValues = [rvSilentMode]
+    ResourceOptions.SilentMode = True
+    UpdateOptions.AssignedValues = [uvCheckRequired, uvAutoCommitUpdates]
+    UpdateOptions.CheckRequired = False
+    UpdateOptions.AutoCommitUpdates = True
+    Left = 120
+    Top = 296
+    object FDMemTable1TagString: TStringField
+      FieldName = 'TagString'
+      Size = 50
+    end
+    object FDMemTable1Count: TIntegerField
+      FieldName = 'Count'
+    end
+  end
+end

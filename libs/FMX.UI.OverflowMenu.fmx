@@ -1,0 +1,24 @@
+object OverflowMenu: TOverflowMenu
+  Size.Width = 544.000000000000000000
+  Size.Height = 540.000000000000000000
+  Size.PlatformDefault = False
+  OnClick = BackgroudClick
+  object lbxMenu: TListBox
+    Position.X = 176.000000000000000000
+    Position.Y = 168.000000000000000000
+    TabOrder = 0
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    OnItemClick = lbxMenuItemClick
+    Viewport.Width = 196.000000000000000000
+    Viewport.Height = 196.000000000000000000
+    object ShadowEffect1: TShadowEffect
+      Distance = 2.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.300000011920929000
+      Opacity = 0.400000005960464400
+      ShadowColor = claBlack
+    end
+  end
+end
